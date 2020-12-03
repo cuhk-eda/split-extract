@@ -1,6 +1,6 @@
 # SplitExtract
 SplitExtract is a heterogeneous feature extraction tool for split manufactured layouts.
-Different from previous feature extraction tools who focus on vector-based features, SplitExtract also extract normalized images based features representing routed layout.
+Different from previous feature extraction tools that focus on vector-based features, SplitExtract also extracts normalized images based features representing routed layout.
 In paticular, it's capable of extracting the following features:
 * distances,
 * numbers of sink pins and load capacitance,

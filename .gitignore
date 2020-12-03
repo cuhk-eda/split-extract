@@ -1,11 +1,19 @@
-# Prerequisites
-*.d
-
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+*.output
+
+# Executables
+*.exe
+*.out
+*.app
+bin
+extract
+
+# Prerequisites
+*.d
 
 # Precompiled Headers
 *.gch
@@ -26,7 +34,3 @@
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app

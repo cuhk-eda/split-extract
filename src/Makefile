@@ -120,7 +120,6 @@ clean:
 	rm -f */*.d *.d
 	rm -f io/*.tab.c io/*.tab.h io/*.yy.c *.output
 	rm -f *.dat $(BFILE) core
-	rm -f qt/*.moc.cpp
 
 .PHONY: tags
 tags:
