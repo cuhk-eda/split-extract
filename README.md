@@ -36,4 +36,19 @@ More details are in [`Makefile`](src/Makefile).
 ## 2. How to Run
 
 ### Toy Test
-Go to the `bin` directory and run binary.
+Go to the `bin` directory and run binary `extract` with a toy case `c432`:
+~~~
+$ cd bin
+$ ./extract --input_def ../toys/c432/c432_original.def --cell_lef ../toys/c432/NangateOpenCellLibrary.lef --metal 3 --output_csv c432_M3.csv
+~~~
+
+## 3. Modules
+
+* `src`: C++ source code
+    * `args`: header-only C++ argument [parser library](https://github.com/Taywee/args)
+    * `db`: database, including the cell and net information
+    * `def58`: [Design Exchange Format](https://si2.org/oa-tools-utils-libs)
+    * `io`: parser interfaces
+    * `lef58`: [Library Exchange Format](https://si2.org/oa-tools-utils-libs)
+    * `ut`: some utility code
+* `toys`: toy test cases
